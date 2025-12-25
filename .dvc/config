@@ -1,0 +1,4 @@
+[core]
+    remote = mlops-remote-test1
+['remote "mlops-remote-test1"']
+    url = s3://my-mlops-dvc-test-bucket-26122025
