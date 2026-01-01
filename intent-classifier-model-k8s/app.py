@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 from model.intent_model import IntentModel
 
 app = Flask(__name__)
+app.json.sort_keys = False
 model = IntentModel()
 
 

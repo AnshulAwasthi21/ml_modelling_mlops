@@ -1,2 +1,4 @@
 .venv
 terraform/
+__pycache__/
+artifacts/
