@@ -1,4 +1,4 @@
-# KServe on KIND (WSL) - Deploying a Sample sklearn-iris Model with InferenceService
+# KServe on KIND (Ubuntu) - Deploying a Sample sklearn-iris Model with InferenceService
 
 This repo documents a hands-on MLOps/Kubernetes model serving demo using **KServe** on a local **KIND** Kubernetes cluster running inside **WSL Ubuntu**.
 
@@ -50,7 +50,7 @@ Check nodes:
 kubectl get nodes
 ```
 
-✅ At this point, a Kubernetes control-plane node is running as a Docker container.
+At this point, a Kubernetes control-plane node is running as a Docker container.
 
 Step 2 — Install cert-manager (Required for KServe webhooks)
 ```bash
@@ -140,7 +140,7 @@ kubectl apply -f - means:
 - = file is STDIN (coming from the pipe)
 ```
 
-✅ Benefit:
+⭐ Benefit:
 
 You can apply YAML without creating a separate .yaml file on disk.
 ```bash
@@ -216,7 +216,7 @@ requests = minimum guaranteed resources for scheduling
 - 512Mi memory
 - limits = max the container can use up to 1 CPU and 1Gi RAM
 
-✅ This protects the cluster and prevents a pod from taking unlimited resources.
+⭐ This protects the cluster and prevents a pod from taking unlimited resources.
 </pre>
 
 Step 9 — Verify Resources Created by KServe
