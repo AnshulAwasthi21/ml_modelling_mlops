@@ -77,7 +77,7 @@ kserve-controller-manager-XXXXX              2/2     Running   0          33m
 
 - Checkout the logs for the container which should give you more details to audit if it started creating deployment, service, HPA etc or not
 ```bash
-kubectl logs kserve-controller-manager-7f7b6d54df-z5fgm --all-containers -n kserve
+kubectl logs kserve-controller-manager-XXXXX --all-containers -n kserve
 ```
 
 ### Port-forward to access the model
