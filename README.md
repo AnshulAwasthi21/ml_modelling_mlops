@@ -1,6 +1,8 @@
-# MLOps | Kubernetes Model Deployment Lab
+# Kindly STAR ⭐ this repo if you find it helpful
 
-Hands-on projects exploring the full ML lifecycle — from model training and versioning to containerized deployment and Kubernetes-native inference using **KServe**.
+# MLOps | Kubernetes - Model Deployment Lab
+
+Hands-on projects exploring the full ML lifecycle, from model training and versioning to containerized deployment and Kubernetes-native inference using **KServe**.
 
 This repository reflects my work across **In IT & Automation**, combined with modern **DevOps, Cloud, and MLOps practices**, where I routinely build production-style ML platforms and internal POCs.
 
